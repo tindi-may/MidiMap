@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MidiMap - Standalone Plugin", "MidiMap_StandalonePlugin.vcxproj", "{EB77DA37-61DD-C495-18BA-77C24AEA141B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF37F4A6-B244-179B-C399-D19591303579} = {EF37F4A6-B244-179B-C399-D19591303579}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MidiMap - VST3", "MidiMap_VST3.vcxproj", "{B2B48336-9FE4-7FFC-C927-300763394A83}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF37F4A6-B244-179B-C399-D19591303579} = {EF37F4A6-B244-179B-C399-D19591303579}
+		{A027C53B-462D-9A48-1AC1-BC021CA54CC8} = {A027C53B-462D-9A48-1AC1-BC021CA54CC8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MidiMap - Shared Code", "MidiMap_SharedCode.vcxproj", "{EF37F4A6-B244-179B-C399-D19591303579}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MidiMap - VST3 Manifest Helper", "MidiMap_VST3ManifestHelper.vcxproj", "{A027C53B-462D-9A48-1AC1-BC021CA54CC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2B48336-9FE4-7FFC-C927-300763394A83}.Debug|x64.ActiveCfg = Debug|x64
+		{B2B48336-9FE4-7FFC-C927-300763394A83}.Debug|x64.Build.0 = Debug|x64
+		{B2B48336-9FE4-7FFC-C927-300763394A83}.Release|x64.ActiveCfg = Release|x64
+		{B2B48336-9FE4-7FFC-C927-300763394A83}.Release|x64.Build.0 = Release|x64
+		{EB77DA37-61DD-C495-18BA-77C24AEA141B}.Debug|x64.ActiveCfg = Debug|x64
+		{EB77DA37-61DD-C495-18BA-77C24AEA141B}.Debug|x64.Build.0 = Debug|x64
+		{EB77DA37-61DD-C495-18BA-77C24AEA141B}.Release|x64.ActiveCfg = Release|x64
+		{EB77DA37-61DD-C495-18BA-77C24AEA141B}.Release|x64.Build.0 = Release|x64
+		{EF37F4A6-B244-179B-C399-D19591303579}.Debug|x64.ActiveCfg = Debug|x64
+		{EF37F4A6-B244-179B-C399-D19591303579}.Debug|x64.Build.0 = Debug|x64
+		{EF37F4A6-B244-179B-C399-D19591303579}.Release|x64.ActiveCfg = Release|x64
+		{EF37F4A6-B244-179B-C399-D19591303579}.Release|x64.Build.0 = Release|x64
+		{A027C53B-462D-9A48-1AC1-BC021CA54CC8}.Debug|x64.ActiveCfg = Debug|x64
+		{A027C53B-462D-9A48-1AC1-BC021CA54CC8}.Debug|x64.Build.0 = Debug|x64
+		{A027C53B-462D-9A48-1AC1-BC021CA54CC8}.Release|x64.ActiveCfg = Release|x64
+		{A027C53B-462D-9A48-1AC1-BC021CA54CC8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
